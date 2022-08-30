@@ -33,14 +33,11 @@ int main(void)
 
         if(v[i] != -1)
         {
-            //printf("w: %i\n", w[i]);
-            //printf("v: %i\n", v[i]);
             w[j] = v[i];
             j ++;
         }
     }
-    //printf("Number of -1: %i\n", c);
-
+    
     for(int i = 9 - c; i < 9; i ++)
     {
         w[i] = -1;
